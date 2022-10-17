@@ -23,37 +23,37 @@ Each number represents a specific gene, with the same number representing the sa
 
 A reversal is an operation that takes any subsequence in sequence a, reverses the subsequence’s order, then reinserts the subsequence back into the same position.
 
-A reversal in our example could be:
+         A reversal in our example could be:
 
-a = 1, 2, 3, 4, 5, 6, 7, 8, 9
+         a = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-areversal = 1, 2, 4, 3, 5, 6, 7, 8, 9
+         areversal = 1, 2, 4, 3, 5, 6, 7, 8, 9
 
 In this reversal, we have simply swapped the 3 and 4 around.
 
 Another example could be:
 
-a = 1, 2, 3, 4, 5, 6, 7, 8, 9
+         a = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-areversal = 1, 2, 3, 9, 8, 7, 6, 5, 4
+         areversal = 1, 2, 3, 9, 8, 7, 6, 5, 4
 
 Here, we have swapped the entire subsequence after the number 3.
 
 One more to hammer it home:
 
-a = 1, 2, 3, 4, 5, 6, 7, 8, 9
+         a = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-areversal = 9, 8, 7, 6, 5, 4, 3, 2, 1
+         areversal = 9, 8, 7, 6, 5, 4, 3, 2, 1
 
 Here, we have taken the entire sequence as a subsequence and reversed it.
 
 Now, the astute among you may have already worked out that the reversal distance between a and b can easily be done by hand.
 
-a = 1, 2, 3, 4, 5, 6, 7, 8, 9
+         a = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-b = 1, 2, 7, 6, 5, 4, 3, 8, 9
+         b = 1, 2, 7, 6, 5, 4, 3, 8, 9
 
-areversal = 1, 2, 7, 6, 5, 4, 3, 8, 9 = b
+         areversal = 1, 2, 7, 6, 5, 4, 3, 8, 9 = b
 
 We only have to perform one reversal to transform a into b. Therefore, in our example, the reversal distance is 1.
 
